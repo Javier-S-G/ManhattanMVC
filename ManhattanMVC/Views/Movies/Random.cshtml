@@ -1,0 +1,18 @@
+﻿@model ManhattanMVC.ViewModels.RandomMovieViewModel
+@{
+    ViewBag.Title = "Random";
+    Layout = "~/View/Shared/_Layout.cshtml";
+    var v = 3;
+}
+tiene que salir listado de peliculas
+despues pelicula por id (paginas diferentes?)
+elegir una peli y editar su nombre con un boton
+<input value="" type="submit" ....></input....>
+
+<h2>@Model.Movie.Name</h2>
+<ul>
+    @foreach (var customer in Model.Customers)
+    {
+        <li>@customer.Name</li>
+    }
+</ul>
